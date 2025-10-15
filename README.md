@@ -178,6 +178,16 @@ npm run build
 
 构建完成后，生成的文件在 `dist` 目录中。
 
+## 📚 相关文档
+
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - 完整部署指南（GitHub Actions + Nginx）
+- **[部署说明.md](./部署说明.md)** - 快速部署说明
+- **[DEPLOYMENT_SUMMARY.md](./DEPLOYMENT_SUMMARY.md)** - 部署完成总结
+- **[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)** - 故障排查指南 ⭐
+- **[FIREBASE_SETUP.md](./FIREBASE_SETUP.md)** - Firebase 详细配置
+- **[QUICK_START.md](./QUICK_START.md)** - 5分钟快速上手
+- **[开始使用.md](./开始使用.md)** - 中文完整使用指南
+
 ## 📝 待优化功能
 
 - [ ] 添加用户头像

@@ -63,6 +63,10 @@
    # 配置 Nginx
    sudo cp nginx.conf /etc/nginx/sites-available/mini-social-media
    sudo ln -s /etc/nginx/sites-available/mini-social-media /etc/nginx/sites-enabled/
+   
+   # ⚠️ 删除默认站点（重要！）
+   sudo rm /etc/nginx/sites-enabled/default
+   
    sudo nginx -t
    sudo systemctl restart nginx
    ```
@@ -198,6 +202,7 @@ sudo nano /etc/nginx/sites-available/mini-social-media
 
 # 4. 启用配置（1分钟）
 sudo ln -s /etc/nginx/sites-available/mini-social-media /etc/nginx/sites-enabled/
+sudo rm /etc/nginx/sites-enabled/default  # 删除默认站点
 sudo nginx -t
 sudo systemctl restart nginx
 

@@ -201,12 +201,17 @@ server_name your-domain.com www.your-domain.com;  # 改为你的域名或 IP
 # 创建软链接
 sudo ln -s /etc/nginx/sites-available/mini-social-media /etc/nginx/sites-enabled/
 
+# ⚠️ 重要：删除 Nginx 默认站点（避免冲突）
+sudo rm /etc/nginx/sites-enabled/default
+
 # 测试配置
 sudo nginx -t
 
 # 如果测试通过，重启 Nginx
 sudo systemctl restart nginx
 ```
+
+**重要提示**：如果不删除默认站点，浏览器可能会显示 "Welcome to nginx!" 而不是你的应用。
 
 ### 4. 验证部署
 
