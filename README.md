@@ -184,6 +184,7 @@ npm run build
 - **[部署说明.md](./部署说明.md)** - 快速部署说明
 - **[DEPLOYMENT_SUMMARY.md](./DEPLOYMENT_SUMMARY.md)** - 部署完成总结
 - **[TROUBLESHOOTING.md](./TROUBLESHOOTING.md)** - 故障排查指南 ⭐
+- **[CLOUDFLARE_SETUP.md](./CLOUDFLARE_SETUP.md)** - Cloudflare 域名配置指南 ☁️
 - **[FIREBASE_SETUP.md](./FIREBASE_SETUP.md)** - Firebase 详细配置
 - **[QUICK_START.md](./QUICK_START.md)** - 5分钟快速上手
 - **[开始使用.md](./开始使用.md)** - 中文完整使用指南
